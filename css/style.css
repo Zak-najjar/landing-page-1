@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: ar-font;
+  src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+body {
+  font-family: ar-font;
+  direction: rtl;
+}
+
+header {
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+header .brand {
+  margin: 100px auto 60px;
+  display: inline-block;
+}
+
+header .logo2 {
+  margin: auto;
+  padding-bottom: 35px;
+  border-bottom: 3px solid #474c54;
+}
+
+header .texthead h1 {
+  font-size: 60px;
+  line-height: 75px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+header .texthead p {
+  font-size: 18px;
+  line-height: 20px;
+  color: #acacac;
+  width: 40%;
+  margin: auto;
+}
+
+header .texthead {
+  text-align: center;
+}
+
+header .countdown {
+  width: 60%;
+  margin: 90px auto;
+}
+
+header .countdown .counter {
+  display: inline-block;
+  margin: 0 15px;
+  line-height: 55px;
+}
+
+
+header .countdown .counter .count-amount {
+    display: block;
+  font-size: 60px;
+  color: #ffce00;
+  font-weight: bold;
+
+}
+header .countdown .counter .count-period {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.emailNotification p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.emailNotification .input-group {
+  width: 30%;
+  margin: auto;
+  transform: translateY(40%);
+}
+
+
+.emailNotification .input-group input {
+  border-radius: 0;
+  border: 2px solid #e6e6e6;
+  color: #e6e6e6;
+  font-size: 18px;
+  text-align: right;
+}
+
+.emailNotification .input-group .btn {
+  padding: 13px 33px;
+  background-color: #ffce00;
+  border-radius: 0;
+}
+
